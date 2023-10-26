@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    padding-bottom: 1000px;
+    padding-top: 105px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    cursor: pointer;
+}
+
+.plus {
+    display: none;
+}
+
+svg {
+    cursor: pointer;
+    filter: invert(100%);
+}
+

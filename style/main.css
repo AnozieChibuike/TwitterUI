@@ -1,0 +1,359 @@
+@media (max-width: 599px){
+    .tweet {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .new-tweet {
+        display: none;
+    }
+    .tweet {
+        padding-left: 14px;
+        padding-right: 10px;
+        border-bottom: 1px solid rgb(71, 70, 70);
+        display: grid;
+        grid-template-columns: 43px 1fr;   
+    }
+    .tweet-left {
+        border-radius: 2em;
+        width: 100%;
+    }
+    .svgs {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .svgs svg{
+        cursor: pointer;
+        width: 20px;
+        fill: rgb(20, 135, 201);
+        filter: invert(0%);
+    }
+    
+    .trb-svgs span, .tweet-right-top span{
+        color: rgb(83, 82, 82);
+    }
+    .trb-svgs svg , .tweet-right-top svg{
+        cursor: pointer;
+        width: 20px;
+        fill: rgb(71, 70, 70);
+        filter: invert(0%);   
+    }
+    
+    .tweet-right-top, .tweet-right-bottom  {
+        display: flex;
+        justify-content: space-between;
+    }
+    .tweet-right {
+        padding-left: 18px;
+    }
+    
+    .trb-svgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .trb-svgs span {
+        margin-top: 3px;
+        margin-left: 6px;
+        font-size: small;
+    }
+    
+    .tweet-right img {
+        width: 95%;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    
+    #username svg {
+        margin-left: -3px;
+        margin-bottom: -5px;
+        fill: rgb(20, 135, 201);;
+    }
+    
+    #username{
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+    #username span {
+        font-weight: normal;
+    }
+    
+    .tweet-right-bottom {
+        padding-top: 20px;
+    }
+        
+}
+
+
+@media (max-width: 1299px) and (min-width: 600px) {
+.tweet-page {
+    margin-left: 139px;
+    margin-right: 100px;
+}
+
+.tweet {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.new-tweet,.tweet {
+    padding-left: 14px;
+    padding-right: 10px;
+    border-bottom: 1px solid rgb(71, 70, 70);
+    display: grid;
+    grid-template-columns: 43px 1fr;   
+}
+.new-tweet-left,.tweet-left {
+    border-radius: 2em;
+    width: 100%;
+}
+
+.new-tweet-right-top {
+    padding-left: 4px;
+}
+
+#new-tweet-input{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    width: 100%;
+    outline: none;
+} 
+
+.new-tweet-right-bottom-left{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.new-tweet-right-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.new-tweet-right {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.svgs {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.svgs svg{
+    cursor: pointer;
+    width: 20px;
+    fill: rgb(20, 135, 201);
+    filter: invert(0%);
+}
+
+.new-tweet-right-bottom-right {
+    padding: 8px 12px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: rgb(46, 150, 228);
+    border: none;
+    border-radius: 2em;
+}
+
+.trb-svgs span, .tweet-right-top span{
+    color: rgb(83, 82, 82);
+}
+.trb-svgs svg , .tweet-right-top svg{
+    cursor: pointer;
+    width: 20px;
+    fill: rgb(71, 70, 70);
+    filter: invert(0%);   
+}
+
+.tweet-right-top, .tweet-right-bottom  {
+    display: flex;
+    justify-content: space-between;
+}
+.tweet-right {
+    padding-left: 18px;
+}
+
+.trb-svgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trb-svgs span {
+    margin-top: 3px;
+    margin-left: 6px;
+    font-size: small;
+}
+
+.tweet-right img {
+    width: 95%;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+#username svg {
+    margin-left: -3px;
+    margin-bottom: -5px;
+    fill: rgb(20, 135, 201);;
+}
+
+#username{
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+#username span {
+    font-weight: normal;
+}
+
+.tweet-right-bottom {
+    padding-top: 20px;
+}
+
+}
+
+@media (min-width: 1299.1px) {
+
+    .rightbar-content {
+        display: block;
+    }
+    .tweet-page {
+        width: 46vw;
+        margin-left: 19.5vw;
+    }
+    
+    .tweet {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .new-tweet {
+        margin-top: 10px;
+    }
+    .new-tweet,.tweet {
+        padding-left: 14px;
+        padding-right: 10px;
+        border-bottom: 1px solid rgb(71, 70, 70);
+        display: grid;
+        grid-template-columns: 43px 1fr;   
+    }
+    .new-tweet-left,.tweet-left {
+        border-radius: 2em;
+        width: 100%;
+    }
+    
+    .new-tweet-right-top {
+        padding-left: 4px;
+    }
+    
+    #new-tweet-input{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        height: 50px;
+        border: none;
+        width: 100%;
+        outline: none;
+    } 
+    
+    .new-tweet-right-bottom-left{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .new-tweet-right-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .new-tweet-right {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .svgs {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .svgs svg{
+        cursor: pointer;
+        width: 20px;
+        fill: rgb(20, 135, 201);
+        filter: invert(0%);
+    }
+    
+    .new-tweet-right-bottom-right {
+        padding: 8px 12px;
+        color: white;
+        font-weight: bold;
+        opacity: 0.5;
+        cursor: pointer;
+        font-size: 12px;
+        background-color: rgb(46, 150, 228);
+        border: none;
+        border-radius: 2em;
+    }
+    
+    .trb-svgs span, .tweet-right-top span{
+        color: rgb(83, 82, 82);
+    }
+    .trb-svgs svg , .tweet-right-top svg{
+        cursor: pointer;
+        width: 20px;
+        fill: rgb(71, 70, 70);
+        filter: invert(0%);   
+    }
+    
+    .tweet-right-top, .tweet-right-bottom  {
+        display: flex;
+        justify-content: space-between;
+    }
+    .tweet-right {
+        padding-left: 18px;
+    }
+    
+    .trb-svgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .trb-svgs span {
+        margin-top: 3px;
+        margin-left: 6px;
+        font-size: small;
+    }
+    
+    .tweet-right img {
+        width: 95%;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    
+    #username svg {
+        margin-left: -3px;
+        margin-bottom: -5px;
+        fill: rgb(20, 135, 201);;
+    }
+    
+    #username{
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+    #username span {
+        font-weight: normal;
+    }
+    
+    .tweet-right-bottom {
+        padding-top: 20px;
+    }
+    
+}

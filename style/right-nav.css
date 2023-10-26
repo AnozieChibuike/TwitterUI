@@ -1,0 +1,23 @@
+@media (max-width: 1299px) {
+    .rightbar {
+        position: fixed;
+        top: 0;
+        right: 107px;
+        z-index: 6;
+        background-color: black;
+        bottom: 0;
+        border-left: 1px solid rgb(71, 70, 70);
+    }
+}
+
+@media (min-width: 1299.1px) {
+    .rightbar {
+        position: fixed;
+        top: 0;
+        right: 32.87vw;
+        z-index: 6;
+        background-color: black;
+        bottom: 0;
+        border-left: 1px solid rgb(71, 70, 70);
+    }
+}

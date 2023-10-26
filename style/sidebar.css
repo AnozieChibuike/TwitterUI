@@ -1,0 +1,212 @@
+.sidebar {
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    z-index: 6;
+    display: flex;
+}
+
+.icon-parent svg {
+    width: 27px;
+}
+
+#feather {
+    background-color: rgb(46, 150, 228);
+    border-radius: 2em;
+    padding: 15px;
+    margin-left: -10px;
+}
+
+#feather svg {
+    width: 27px;
+}
+
+#x-father {
+    margin-top: 15px;
+}
+
+#x-btn {
+    width: 30px;
+}
+
+.icon-parent {
+    display: flex;
+    align-items: center;
+}
+ 
+@media (max-width: 599px) {
+    .rightbar {
+        display: none;
+    }
+
+    .sidebar {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        align-items: center;
+        height: 9vh;
+        margin-top: 40px;
+        border-top: 1px solid rgb(71, 70, 70)
+    }
+    #notify-btn {   
+        order: 3;
+    }
+
+    .plus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        font-weight: 100;
+        position: fixed;
+        bottom: 10vh;
+        right: 10px;
+        border-radius: 2em;
+        width: 80px;
+        height: 80px;
+        background-color: rgb(46, 150, 228);
+        z-index: 4;
+    }
+
+    #msg {
+        order: 5;
+    }
+
+    #lists,
+    #premium,
+    #profile,
+    #more,
+    #feather{
+        display: none;
+    }
+
+    .sidebar-top-section {
+        display: flex;
+    }
+
+    .icon-parent svg {
+        width: 40%;
+        padding-left: 20px;
+    }
+
+    .sbs-name,.sbs-username,
+    .icon-parent div,
+    .post,
+    .sbs-name,
+    .sbs-username {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1299.1px) {
+    #feather {
+        display: none;
+    }
+
+    .sidebar {
+        width: 20vw;
+        padding-bottom: 20px;
+        top: 0;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        border-right: 1px solid rgb(71, 70, 70);
+    }
+    .sidebar-bottom-section {
+        display: grid;
+        margin-left: 50px;
+        grid-template-columns: 47px 1fr;
+    }
+    .user_details {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        font-size: 13px;
+        
+    }
+    .sbs-name {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .sbs-username {
+        color: rgb(71, 70, 70);
+    }
+    .sidebar-bottom-section img {
+        border-radius: 2em;
+        width: 100%;
+        margin-left: -10px;
+    }
+    .amount {
+        display: none;
+    }
+    .icon-parent svg {
+        margin-right: 14px;
+    }
+    .icon-parent {
+        margin-top: 22px;
+        cursor: pointer;
+    }
+    #home {
+        font-weight: bold;
+    }
+    .post {
+        margin-top: 19px;
+        margin-left: -10px;
+        height: 40px;
+        background-color: rgb(46, 150, 228);
+        color: white;
+        border-radius: 2em;
+        border: none;
+        cursor: pointer;
+        width: calc(100% + 75px);
+    }
+
+}
+
+@media (max-width: 1299px) and (min-width: 600px) {
+    .sidebar {
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 79px;
+        top: 0;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        border-right: 1px solid rgb(71, 70, 70);
+    }
+
+    .icon-parent div,
+    .post,
+    .sbs-name,
+    .sbs-username {
+        display: none;
+    }
+
+    .sidebar-bottom-section img {
+        border-radius: 2em;
+        width: 45px;
+        margin-left: -10px;
+    }
+
+    #notify-btn {
+        position: relative;
+    }
+
+    .amount {
+        top: -4px;
+        right: 16px;
+        border-radius: 2em;
+        font-size: 13px;
+        padding: 1px 5px 1px 5px;
+        color: white;
+        display: block !important;
+        background-color: rgb(46, 150, 228);
+        position: absolute;
+    }
+
+    .icon-parent {
+        margin-top: 22px;
+    }
+}

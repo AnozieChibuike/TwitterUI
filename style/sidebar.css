@@ -57,14 +57,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 50px;
-        font-weight: 100;
+        font-size: 30px;
+        font-weight: 90;
         position: fixed;
         bottom: 10vh;
         right: 10px;
         border-radius: 2em;
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         background-color: rgb(46, 150, 228);
         z-index: 4;
     }

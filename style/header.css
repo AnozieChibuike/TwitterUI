@@ -88,6 +88,7 @@
 
 .tt:hover,.fy:hover,.following:hover {
     background-color: rgb(38, 38, 38);
+    transform:scale(1.2,1.2);
 }
 .heading-top {
     margin-left: 15px;
@@ -143,6 +144,7 @@
     
     .tt:hover,.fy:hover,.following:hover {
         background-color: rgb(38, 38, 38);
+        transform:scale(1.2,1.2);
     }
     .heading-top {
         margin-left: 20px;

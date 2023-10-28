@@ -7,6 +7,10 @@
     display: flex;
 }
 
+.icon-parent:hover{
+    transform:scale(1.2,1.2);
+}
+
 .icon-parent svg {
     width: 27px;
 }
